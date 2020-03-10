@@ -50,6 +50,5 @@ test:
 production:
   <<: *default
   database: jquapp_production
-  username: root
-  password: <%= ENV['DATABASE_PASSWORD'] %>
-  socket: /var/lib/mysql/mysql.sock
+  username: jquapp
+  password: <%= ENV['JQUAPP_DATABASE_PASSWORD'] %>
