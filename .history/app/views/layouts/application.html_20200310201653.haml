@@ -1,0 +1,21 @@
+!!!
+%html
+  %head
+    %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
+    %title Japp
+    = csrf_meta_tags
+    = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
+    = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
+  %body
+    .header
+      .left-box
+        .home
+          = link_to "jQueryのまとめ", "/"
+      .right-box
+        .site
+          = link_to "このサイトについて", "/home/site"
+        .jq
+          = link_to "jQueryとは", "https://jquery.com/"
+        .list
+          = link_to "一覧", "/introduction/index"
+  = yield

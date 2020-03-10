@@ -1,0 +1,36 @@
+.main-box {
+  height: 80vh;
+  width: 80vw;
+  color: white;
+  padding: 30px;
+  background-color: rgba(88, 88, 88, 0.5);
+  background-blend-mode: lighten;
+  margin: 50px auto;
+
+  ul {
+    list-style: none;
+    font-size: 25px;
+  }
+
+  li {
+    font-size: 20px;
+    text-indent: 1em;
+
+    .color-box a:hover {
+      color: #FF8300;
+    }
+
+    .size-box a:hover {
+      font-size: 50px;
+    }
+
+    .hide-box a:hover {
+      display: none;
+    }
+  }
+
+  a {
+    color: white;
+    text-decoration: none;
+  }
+}
