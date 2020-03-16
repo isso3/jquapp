@@ -3,7 +3,7 @@ server '3.115.167.201',
   roles: %w{app db web}
   ssh_options: {
     user: "ec2-user"
-    keys: %w(~/.ssh/key4.pem)
+    
   }
 # server-based syntax
 # ======================
