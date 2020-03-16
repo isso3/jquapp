@@ -1,0 +1,67 @@
+body {
+  background-image: url(image-path("jQuery.jpeg"));
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: rgba(88, 88, 88, 0.5);
+  background-blend-mode: lighten;
+  padding-top: 20%;
+}
+
+.header {
+  height: 50px;
+  width: 100vw;
+  padding: 0px 10px;
+  color: white;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(37, 37, 37, 0.5);
+  background-blend-mode: lighten;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+
+  .left-box {
+    .home {
+      font-size: 20px;
+    }
+
+    .home a:hover {
+      margin-right: auto;
+      color: #FF8300;
+    }
+  }
+
+  .right-box {
+    display: flex;
+
+    .site a:hover {
+      color: #FF8300;
+    }
+
+    .jq {
+      padding-left: 20px;
+    }
+
+    .list {
+      padding-left: 20px;
+      padding-right: 40px;
+    }
+
+    .list a:hover {
+      color: #FF8300;
+    }
+  
+    .jq a:hover {
+      color: #FF8300;
+    }
+  }
+
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  
+}
